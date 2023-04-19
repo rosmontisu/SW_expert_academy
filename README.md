@@ -1,2 +1,6 @@
-# SW_expert_academy
-SWEA 공부기록용
+# SWEA
+
+swea 문제 해결
+self study book 풀이
+
+
