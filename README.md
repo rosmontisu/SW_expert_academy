@@ -1,6 +1,6 @@
-# sw expert academy
-Programming Intermediate & Advanced 코스 정리   
-개념 정리와 C 기준으로 문제 풀이 기록
+# Programming Intermediate course 
+주요 개념 정리, 문제 풀이    
+문제 풀이는 c언어 + 다른언어(c++, c#, py)    
 
 ## SW 문제해결 Self Study Book Ⅰ
 
@@ -8,12 +8,38 @@ Programming Intermediate & Advanced 코스 정리
 
 [[Array] 순열, 정렬, 대표문제-Baby Gin Game 해결](https://github.com/rosmontisu/SW_expert_academy/blob/main/self_study_book_1/2_baby_gin_game.md)
 
-[[Array] 비트 연산자, 검색, 대표문제-집합의 합 해결하기]
+[[Array] 비트 연산자, 검색, 대표문제-집합의 합 해결하기]()
 
-[[Array] 배열의 순회, 선택 정렬, 대표문제-Ladder]
+[[Array] 배열의 순회, 선택 정렬, 대표문제-Ladder]()
 
-[[Array] 대표문제-평탄화 해결하기]
+[[Array] 대표문제-평탄화 해결하기]()
 
-[[String] 문자열, 대표문제-Palindrome]
+[[String] 문자열, 대표문제-Palindrome]()
 
-[[String] 패턴매칭, 문자열 매칭 알고리즘, 대표문제-패턴매칭]
+[[String] 패턴매칭, 문자열 매칭 알고리즘, 대표문제-패턴매칭]()
+
+
+## SW 문제해결 Self Study Book Ⅱ
+
+[Stack] 스택, 후위 표기법, 대표문제-계산기
+
+[Stack] 깊이 우선 탐색, 백트래킹 기법, 대표문제-미로찾기
+
+[Stack] 대표문제-피보나치 수열
+
+[Queue] 큐, 대표문제-BFS
+
+[Queue] 연결 리스트 큐, 우선 순위 큐
+
+
+## SW 문제해결 Self Study Book Ⅲ
+
+[List] 리스트, 대표문제-Josephus Problem
+
+[Tree] 트리, 이진트리, 대표문제-중위순회
+
+[Tree] 이진 탐색트리, 힙, 대표문제-중위순회
+
+[Tree] 대표문제-사칙연산 유효성 검사
+
+[Tree] 대표문제-사칙연산
