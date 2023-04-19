@@ -2,7 +2,7 @@
 
 [[Array] 대표문제-Gravity](https://github.com/rosmontisu/SW_expert_academy/blob/main/self_study_book_1/1_array_gravity.md)
 
-[[Array] 순열, 정렬, 대표문제-Baby Gin Game 해결]
+[[Array] 순열, 정렬, 대표문제-Baby Gin Game 해결](https://github.com/rosmontisu/SW_expert_academy/blob/main/self_study_book_1/2_baby_gin_game.md)
 
 [[Array] 비트 연산자, 검색, 대표문제-집합의 합 해결하기]
 
