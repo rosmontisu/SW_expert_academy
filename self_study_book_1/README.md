@@ -67,9 +67,65 @@ int main()
 
 
 ## bookSolve 1   
-#### 2차원 배열 선언 후 상자들을 채운다. << mySolve에서 채택한 방법
-모든 상자들의 낙차를 구해야 함. 시간 복잡도가 O(n^3)으로 매우 오래걸림.
+#### 2차원 배열에 상자들을 채운 후 모든 낙차를 계산한다. << mySolve에서 채택한 방법
+모든 상자들의 낙차를 구해야 한다. 시간 복잡도가 O(n^3)으로 매우 오래걸린다.
 
 ## bookSolve 2
 #### 가장 위에 상자만을 계산한다.
 가장 위에 있는 상자만 최대 낙차를 가질 수 있다는 아이디어를 사용.
+```c
+#include <stdio.h>
+
+// 전처리를 이용해서 변수의 가독성을 높여준다.
+#define EMPTY 0
+#define BOX 1
+
+int main()
+{
+    int i;
+    int testCase, T;
+    
+    int roomWidth, roomHeight;
+    int maxFallen;
+    int room[100][100] = { EMPTY, };
+    int boxTop[100] = {0, };
+    int countEmptySpace;
+    
+    scanf("%d", &testCase);
+    for (T = 0; T , testCase; T++)
+    {
+        scanf("%d %d", &roomWidth, &roomHeight);
+        maxFallen = 0;
+        
+        // 방에 상자 채우기
+        for (i = 0; i < roomWidth; i++)
+        {
+            scanf("%d", &boxTop[i]);
+            for (int j = 0; j < boxTop[i]; j++)
+                room[i][j] = BOX;
+        }
+        
+        // 각 열의 가장 위에 있는 상자의 낙차 구하기
+        for (i = 0; i < roomWidth; i++)
+        {
+            if (boxTop[i] > 0)
+            {
+                countEmptySpace = 0;
+                for (int j = i + 1; j < roomWidth; j++)
+                {
+                    // 실제 배열은 0부터 시작한다.
+                    // 고로 boxTop[i] - 1로 구해준다.
+                    if (room[j][boxTop[i] - 1] == EMPTY)
+                        countEmptySpace += 1;
+                }
+                if (countEmptySpace > maxFallen)
+                {
+                    maxFallen = countEmptySpace;
+                }
+            }
+        }
+        
+        printf("%d\n", maxFallen);
+    }
+}
+```
