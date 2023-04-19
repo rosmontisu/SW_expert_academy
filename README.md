@@ -1,3 +1,7 @@
+# sw expert academy
+Programming Intermediate & Advanced 코스 정리   
+개념 정리와 C 기준으로 문제 풀이 기록
+
 ## SW 문제해결 Self Study Book Ⅰ
 
 [[Array] 대표문제-Gravity](https://github.com/rosmontisu/SW_expert_academy/blob/main/self_study_book_1/1_array_gravity.md)
