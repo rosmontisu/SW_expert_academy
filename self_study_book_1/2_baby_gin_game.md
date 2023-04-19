@@ -39,11 +39,33 @@ O(n!)의 시간 복잡도가 나온다.
 
 ## Bubble Sort
 #### 버블 정렬은 인접한 두 개의 원소를 비교하며 자리를 계속 교환하는 방식이다.   
+시간 복잡도 : O(n^2)   
+1. 첫 원소부터 인접한 원소끼리 계속 자리를 교환하여 맨 마지막 자리까지 이동한다.   
+2. 한 단계가 끝날때마다 가장 큰 원소가 마지막 자리로 정렬된다.   
 
-
-
-
+```c
+for (loop = 0; loop < tempCount - 1; loop++)
+{
+    for (i = 0; i < tempCount - 1 - loop; i++)
+    {
+        if (temp[i] > temp[i + 1])
+        {
+            hold = temp[i];
+            temp[i] = temp[i + 1];
+            temp[i + 1] = hold;
+        }
+    }
+}
+```
 ## Counting Sort
+#### 카운팅 정렬은 집합에 각 항목의 수를 세고, 정렬한다.
+시간 복잡도 : O(n+k)
+1. 배열 내의 각 항목들의 발생 횟수로 배열을 만들어준다.  
+2. 이전의 발생 횟수만큼 이후의 배열에 값을 더해준다.
+2. 정렬할 원소의 배열
+
+
+
 ## Selection Sort
 ## Quick Sort
 ## Insertion Sort
