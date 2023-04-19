@@ -1,6 +1,6 @@
 ## SW 문제해결 Self Study Book Ⅰ
 
-[[Array] 대표문제-Gravity](https://github.com/rosmontisu/SW_expert_academy/tree/main/self_study_book_1)
+[[Array] 대표문제-Gravity](https://github.com/rosmontisu/SW_expert_academy/blob/main/self_study_book_1/1_array_gravity.md)
 
 [[Array] 순열, 정렬, 대표문제-Baby Gin Game 해결]
 
