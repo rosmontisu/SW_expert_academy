@@ -2,7 +2,7 @@
 주요 개념 정리, 문제 풀이    
 문제 풀이는 c언어 + 다른언어(c++, c#, py)    
 
-## SW 문제해결 Self Study Book Ⅰ
+## SW 문제해결 Self Study Ⅰ
 
 [[Array] 대표문제-Gravity](https://github.com/rosmontisu/SW_expert_academy/blob/main/self_study_book_1/1_array_gravity.md)
 
@@ -19,7 +19,7 @@
 [[String] 패턴매칭, 문자열 매칭 알고리즘, 대표문제-패턴매칭]()
 
 
-## SW 문제해결 Self Study Book Ⅱ
+## SW 문제해결 Self Study Ⅱ
 
 [Stack] 스택, 후위 표기법, 대표문제-계산기
 
@@ -32,7 +32,7 @@
 [Queue] 연결 리스트 큐, 우선 순위 큐
 
 
-## SW 문제해결 Self Study Book Ⅲ
+## SW 문제해결 Self Study Ⅲ
 
 [List] 리스트, 대표문제-Josephus Problem
 
