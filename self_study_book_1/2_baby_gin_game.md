@@ -62,7 +62,30 @@ for (loop = 0; loop < tempCount - 1; loop++)
 시간 복잡도 : O(n+k)
 1. 배열 내의 각 항목들의 발생 횟수로 배열을 만들어준다.  
 2. 이전의 발생 횟수만큼 이후의 배열에 값을 더해준다.
-2. 정렬할 원소의 배열
+2. 정렬할 원소와 각 원소의 개수를 배열을 통해 정렬한다.
+
+카운팅 정렬은 정수 or 정수로 표현할 수 있는 자료에만 적용 가능하다.   
+이때, 카운트를 위한 배열의 크기 할당을 위해 집합 내의 가장 큰 정수를 알아야한다.
+
+```c
+// 각 항목들의 발생 횟수를 배열에 저장한다.
+// 이때 집합 내의 가장 큰 정수 maxValue 또한 구해준다.
+for (int i = 0; i < size; i++)
+{
+      if (maxValue < data[i]) maxValue = data[i];
+      counts[data[i]]++; // data[0] 이 4라면? -> counts[4]가 증가됨
+}
+// counts배열의 값을 조정해준다. (이전 발생 횟수 추가)
+for (int i = 1; i <= maxValue; i++)
+{
+      counts[i] = counts[i] + counts[i - 1];
+}
+// counts배열을 사용해 조정해준다.
+for (int i = size - 1; i >= 0; i--)
+{
+      temp[--counts[data[i]]] = data[i];
+}
+```
 
 
 
