@@ -1,6 +1,13 @@
 # Programming Intermediate course 
-주요 개념 정리, 문제 풀이    
-문제 풀이는 c언어 + 다른언어(c++, c#, py)    
+SWEA 자습서 정리 및 풀이   
+각 파트별로 연습문제 1개 이상 풀이   
+
+> 사용 언어   
+> mySolve : C# Java Python 택 1   
+> bookSolve : C/C++ 
+>
+> 공부 범위   
+> array, string, satck, queue, list, tree
 
 ## SW 문제해결 Self Study Ⅰ
 
