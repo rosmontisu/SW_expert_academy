@@ -20,3 +20,20 @@
 > a << b == a * 2^b   
 > 비트 오른쪽 시프트   
 > a >> b == a / 2^b
+   
+
+```c
+void main(void)
+{
+   int i, j;
+   int arr[] = { -7, -3, -2, 5, 8 };
+   int n = sizeof(arr) / sizeof(arr[0]);  // n:원소의 개수
+   int sum;
+   
+   int ret = 0;
+   for (i = 1; i < (n)); i++) // 1<<n : 부분 집합의 개수
+   
+   
+   
+   
+   
