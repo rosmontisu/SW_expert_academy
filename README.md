@@ -15,7 +15,7 @@ SWEA 자습서 정리 및 풀이
 
 [[Array] 순열, 정렬, 대표문제-Baby Gin Game 해결](https://github.com/rosmontisu/SW_expert_academy/blob/main/self_study_book_1/2_baby_gin_game.md)
 
-[[Array] 비트 연산자, 검색, 대표문제-Sum of subset(부분 집합의 합) 해결하기]()
+[[Array] 비트 연산자, 검색, 대표문제-Sum of subset(부분 집합의 합) 해결하기](https://github.com/rosmontisu/SW_expert_academy/blob/main/self_study_book_1/3_sum_of_subset.md)
 
 [[Array] 배열의 순회, 선택 정렬, 대표문제-Ladder]()
 
