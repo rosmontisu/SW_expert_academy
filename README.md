@@ -5,9 +5,6 @@ SWEA 자습서 정리 및 풀이
 > 사용 언어   
 > mySolve : C# Java Python 택 1   
 > bookSolve : C/C++ 
->
-> 공부 범위   
-> array, string, satck, queue, list, tree
 
 ## SW 문제해결 Self Study Ⅰ
 
