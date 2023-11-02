@@ -1,10 +1,9 @@
 # Programming Intermediate course 
 SWEA 자습서 정리 및 풀이   
-각 파트별로 연습문제 1개 이상 풀이   
+BOJ step
 
 > 사용 언어   
-> mySolve : C# or Python     
-> bookSolve : C/C++ 
+> C# or C++ 
 
 ## SW 문제해결 Self Study Ⅰ
 
